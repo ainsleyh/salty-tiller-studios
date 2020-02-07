@@ -1,0 +1,126 @@
+body {
+  margin: 0;
+  font-size: 28px;
+  font-family: 'Patua One', cursive;
+}
+
+h3, p, h2 {
+  font-family: 'Patua One', cursive;
+}
+
+.section {
+  min-height: 200px;
+}
+
+.section1 {
+  min-height: 200px;
+  max-width: 500px;
+  margin: auto;
+}
+
+.contact-email {
+  padding-top: 60px;
+  text-align: center;
+  margin: auto;
+}
+
+.logo {
+  max-height: 150px;
+  float:left;
+
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.gplay {
+  max-height: 50px;
+}
+
+.itunes {
+  max-height: 33px;
+}
+
+.app-text {
+  padding: 15px;
+}
+
+.left {
+  float:left;
+  padding: 20px;
+  margin-right: 15px;
+}
+
+.right {
+  margin-left: 15px;
+  height: 200px;
+  padding-top: 5px;
+}
+
+.emoji-container {
+  background-color: #f14f4b;
+  border: solid #4c4c4c;
+  border-width: 5px;
+  border-radius: 9px;
+  transform: rotate(-20deg);
+}
+
+.emoji {
+  max-height: 150px;
+  transform: rotate(20deg);
+}
+
+.header {
+  background-image: url("../img/DSCF0251.jpg");
+  padding: 30px;
+  text-align: center;
+  background-size: 100% auto;
+}
+
+.header h2 {
+  margin-top: 10%;
+  margin-bottom: 25%;
+  color: rgba(255, 255, 255, 0.8);
+  text-transform: uppercase;
+  font-family: 'Patua One', cursive;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+#navbar {
+  z-index: 1;
+  overflow: hidden;
+  background-color: #ecdfcdff;
+  font-family: 'Patua One', cursive;
+
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+}
+
+#navbar a {
+  float: left;
+  display: block;
+  color: #f14f4b;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+#navbar a:hover {
+  color: #4c4c4c;
+}
+
+.content {
+  padding: 16px;
+  font-family: 'Patua One', cursive;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .content {
+  padding-top: 60px;
+}

@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+
+<html class="no-js" lang="en">
+<head>
+  <!-- title and meta -->
+  <meta charset="utf-8">
+  <meta content="width=device-width,initial-scale=1.0" name="viewport">
+  <meta name="description" content="We design websites and apps.">
+  <meta name="author" content="Ainsley Herndon">
+
+  <title>Salty Tiller Studios</title>
+
+  <!-- css -->
+  <link href="https://fonts.googleapis.com/css?family=Patua+One&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/base.css">
+
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
+  <!-- jQuery library -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+  <!-- Latest compiled JavaScript -->
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+  <link rel="icon" type="image/png" href="img/dog.png">
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-156954736-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-156954736-1');
+  </script>
+
+  <script>
+  // When the user scrolls the page, execute myFunction
+window.onscroll = function() {myFunction()};
+
+// Get the navbar
+var navbar = document.getElementById("navbar");
+
+// Get the offset position of the navbar
+var sticky = navbar.offsetTop;
+
+// Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
+function myFunction() {
+if (window.pageYOffset >= sticky) {
+  navbar.classList.add("sticky")
+} else {
+  navbar.classList.remove("sticky");
+}
+}
+  </script>
+
+</head>
+
+<body>
+
+  <div class="header">
+    <h2>Salty Tiller Studios</h2>
+  </div>
+
+  <div id="navbar" class="">
+    <a href="#home">Home</a>
+    <a href="#apps">Apps</a>
+    <a href="#contact">Contact</a>
+  </div>
+
+  <div class="content">
+
+    <div class="section1">
+      <h3 id="home"></h3>
+
+      <div class="left">
+        <div class="emoji-container">
+          <img class="emoji" alt='Tiller' src='img/tiller.png'/>
+        </div>
+      </div>
+      <div class="right">
+        <h3>
+          Hi, my name is Tiller!
+        </h3>
+        <p>
+          &#x1F4CD; Seattleite.
+          <br/>
+          &#x1F537; Great Dane.
+          <br/>
+          &#x1F537; Loves &#x1F37F;.
+          <br/>
+          &#x1F537; Learned to code from my <a target="_blank" href="http://ainsleyherndon.com">mum</a>.
+          <br/>
+        </p>
+      </div>
+    </div>
+
+<hr />
+      <h3 id="apps">Honor The Flag</h3>
+      <img class="logo" alt='Flag icon' src='img/icon.png'/>
+      <p class="app-text">
+
+          Have you ever been out and about and noticed that our flag is flying half staff?
+          This app notifies you when the flag is half staff and details what American has sacrificed their life to maintain the freedoms we experience today.
+<br/><br/>
+          Time saver and a convo starter every time the flag is flown at half staff.
+
+      </p>
+<br/>
+  <p>Available From:</p>
+  <div>
+      <a href="https://itunes.apple.com/app/raise-the-flag/id1494080283" target="_blank" class="mfp-inline__download__content__badge">
+        <img class="itunes" src="https://d21tktytfo9riy.cloudfront.net/wp-content/uploads/2016/02/29165321/itunes_badge.png" alt="Get it on iTunes">
+      </a>
+
+      <a target="_blank" href='https://play.google.com/store/apps/details?id=com.raisetheflag&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'>
+        <img class="gplay" alt='Get it on Google Play' src='https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png'/>
+      </a>
+  </div>
+
+<hr />
+  <div class="section">
+    <h3 id="contact">Contact</h3>
+      <h3 class="contact-email">
+        Send us an email at <a href="mailto:support@saltytiller.com">support@saltytiller.com</a>.
+      </h3>
+  </div>
+
+</div>
+
+
+</body>
+</html>
